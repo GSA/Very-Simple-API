@@ -2,12 +2,10 @@ rover:
   age: 2
   breed: lab
   color: black
-
 spot:
   age: 3
   breed: dalmation
   color: white
-
 lassie:
   age: 70
   breed: collie
