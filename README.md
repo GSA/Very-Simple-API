@@ -2,7 +2,7 @@ Simple-API
 ==========
 
 
-Steps:
+Steps:  
 1. Create a new repo  
 2. Create a GH-pages branch  
 3. Create a YML file in a /_data folder  
