@@ -30,7 +30,7 @@ lassie:
 {{ site.data.objects | jsonify }}
 ````
 
-The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/objects.json]
+The end result will now be avialable at http://**username**.github.io/**name-of-repo**/ - For instance,  [https://gsa.github.io/Very-Simple-API/objects.json]
 
 5. Create an xml template file, name it `objects.xml`, and include the below:
 
@@ -87,4 +87,10 @@ Name,Age,Breed,Color
 ````
 
 The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/objects.csv]
+
+~~~~~~~~~~~~~~~~~~~~~
+
+### To Do 
+- clarify that only yml file should be in _data 
+- clarify how to derive the new project's url.  
 
