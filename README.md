@@ -32,7 +32,7 @@ lassie:
 
 The end result will now be avialable at http://**username**.github.io/**name-of-repo**/objects.json.  For instance,  [https://gsa.github.io/Very-Simple-API/objects.json]
 
- 5. Create an xml template file, name it `objects.xml`, and include the below:
+5) Create an xml template file, name it `objects.xml`, and include the below:
 
 
 ````
@@ -52,7 +52,7 @@ The end result will now be avialable at http://**username**.github.io/**name-of-
 
 The end result will now be avialable at http://**username**.github.io/**name-of-repo**/objects.xml.  For instance,  [https://gsa.github.io/Very-Simple-API/objects.xml]
 
- 6. Create a csv template, name it `objects.csv`, and include the below:
+6) Create a csv template, name it `objects.csv`, and include the below:
 
 ````
 ---
@@ -66,7 +66,7 @@ The end result will now be avialable at http://**username**.github.io/**name-of-
 
 
 
- 7. Create an html template, name it `index.html`, and include the below:
+7) Create an html template, name it `index.html`, and include the below:
 
 
 ````
