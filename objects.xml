@@ -4,7 +4,7 @@
   {% for dog in site.data.objects %}
   <dog>
     <name>{{ dog[0] }}</name>
-    <breed>{{ dog[1].color }}</breed>
+    <breed>{{ dog[1].breed }}</breed>
     <age>{{ dog[1].age }}</age>
     <color>{{ dog[1].color}}</color>
   </dog>
