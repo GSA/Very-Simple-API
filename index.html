@@ -3,7 +3,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script>
     $.getJSON( "objects.json", function(objects) {
-      $.each(dogs, function(name, attributes) {
+      $.each(objects, function(name, attributes) {
         document.write("<h2>" + name + "</h2>");
         document.write("Age: " + attributes["age"] + "<br />");
         document.write("Breed: " + attributes["breed"] + "<br />");
