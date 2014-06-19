@@ -1,6 +1,5 @@
 ---
 ---
 Name,Age,Breed,Color
-{% for obj in site.data.objects %}
-{{ obj[0] }},{{ obj[1].age }},{{ obj[1].breed }},{{ obj[1].color }}
+{% for dog in site.data.dogs %}{{ dog[0] }},{{ dog[1].age }},{{ dog[1].breed }},{{ dog[1].color }}
 {% endfor %}
