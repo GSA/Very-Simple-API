@@ -3,7 +3,7 @@ Simple-API
 
 
 Steps:  
-1. Create a new repo  (
+1. Create a new repo  (initialize with a readme).  
 2. Create a new branch called gh-pages  
 3. Create a YML file in a /_data folder, name it `objects.yml`, insert the below, and save.   
 
