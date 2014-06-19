@@ -27,7 +27,7 @@ lassie:
 ````
 ---
 ---
-{{ site.data.dogs | jsonify }}
+{{ site.data.objects | jsonify }}
 ````
 
 The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/objects.json]
@@ -39,7 +39,7 @@ The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/o
 ---
 ---
 <dogs>
-  {% for dog in site.data.dogs %}
+  {% for dog in site.data.objects %}
   <dog>
     <name>{{ dog[0] }}</name>
     <breed>{{ dog[1].color }}</breed>
