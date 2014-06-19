@@ -30,7 +30,7 @@ lassie:
 {{ site.data.objects | jsonify }}
 ````
 
-The end result will now be avialable at http://**username**.github.io/**name-of-repo**/ - For instance,  [https://gsa.github.io/Very-Simple-API/objects.json]
+The end result will now be avialable at http://**username**.github.io/**name-of-repo**/objects.json.  For instance,  [https://gsa.github.io/Very-Simple-API/objects.json]
 
 5. Create an xml template file, name it `objects.xml`, and include the below:
 
@@ -50,7 +50,20 @@ The end result will now be avialable at http://**username**.github.io/**name-of-
 </dogs>
 ````
 
-The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/objects.xml]
+The end result will now be avialable at http://**username**.github.io/**name-of-repo**/objects.xml.  For instance,  [https://gsa.github.io/Very-Simple-API/objects.xml]
+
+7. Create a csv template, name it `objects.csv`, and include the below:
+
+````
+---
+---
+Name,Age,Breed,Color
+{% for dog in site.data.objects %}{{ dog[0] }},{{ dog[1].age }},{{ dog[1].breed }},{{ dog[1].color }}
+{% endfor %}
+````
+
+The end result will now be avialable at http://**username**.github.io/**name-of-repo**/objects.csv.  For instance, [https://gsa.github.io/Very-Simple-API/objects.csv].
+
 
 
 6. Create an html template, name it `index.html`, and include the below:
@@ -61,8 +74,8 @@ The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/o
   <body>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script>
-    $.getJSON( "dogs.json", function(dogs) {
-      $.each(dogs, function(name, attributes) {
+    $.getJSON( "objects.json", function(objects) {
+      $.each(objects, function(name, attributes) {
         document.write("<h2>" + name + "</h2>");
         document.write("Age: " + attributes["age"] + "<br />");
         document.write("Breed: " + attributes["breed"] + "<br />");
@@ -73,20 +86,8 @@ The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/o
   </body>
 </html>
 ````
-The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/]
+The end result will now be avialable at http://**username**.github.io/**name-of-repo**/.  For instance, [https://gsa.github.io/Very-Simple-API/].
 
-
-7. Create a csv template, name it `objects.csv`, and include the below:
-
-````
----
----
-Name,Age,Breed,Color
-{% for dog in site.data.dogs %}{{ dog[0] }},{{ dog[1].age }},{{ dog[1].breed }},{{ dog[1].color }}
-{% endfor %}
-````
-
-The end result will now be avialable at [https://gsa.github.io/Very-Simple-API/objects.csv]
 
 ~~~~~~~~~~~~~~~~~~~~~
 
