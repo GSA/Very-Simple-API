@@ -87,3 +87,12 @@ The end result will now be avialable at http://**username**.github.io/**name-of-
 ````
 The end result will now be avialable at http://**username**.github.io/**name-of-repo**/.  For instance, [https://gsa.github.io/Very-Simple-API/].
 
+
+
+### To Do 
+- clarify that only yml file should be in _data 
+- fixing numbering
+
+
+
+ and modify the term after 'site.data' to include the name of the yml file. 
