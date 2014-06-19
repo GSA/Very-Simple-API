@@ -10,3 +10,7 @@ lassie:
   age: 70
   breed: collie
   color: brown
+sally: 
+  age: 5
+  breed: minpin
+  color: black
