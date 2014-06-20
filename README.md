@@ -1,6 +1,8 @@
 Simple-API
 ==========
 
+[Following this model](http://github.com/benbalter/simple-api)
+
 Steps:
 
 1) Create a new repo.  [+](https://github.com/GSA/Very-Simple-API/blob/gh-pages/extended_instructions.md#1-create-a-new-repo)   
