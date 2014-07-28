@@ -6,7 +6,7 @@ Simple-API
 Steps:
 
 1) Create a new repo.  [+](https://github.com/GSA/Very-Simple-API/blob/gh-pages/extended_instructions.md#1-create-a-new-repo)   
-2) Create a new branch called gh-pages.  [+](https://github.com/GSA/Very-Simple-API/blob/gh-pages/extended_instructions.md#2-create-a-new-branch-called-gh-pages)  
+2) Create a new branch called gh-pages.  In the repository's settings, set gh-pages as the default branch. [+](https://github.com/GSA/Very-Simple-API/blob/gh-pages/extended_instructions.md#2-create-a-new-branch-called-gh-pages)  
 3) Create a YML file in a /_data folder, name it `objects.yml`, insert the below, and save.  [+](https://github.com/GSA/Very-Simple-API/blob/gh-pages/extended_instructions.md#3-create-a-yml-file-in-a-_data-folder-name-it-objectsyml-insert-the-below-and-save)     
 
 ````
