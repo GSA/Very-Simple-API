@@ -1,7 +1,7 @@
 Simple-API
 ==========
 
-[Following this model](http://github.com/benbalter/simple-api)
+This project is follows [@benbalter's work](http://github.com/benbalter/simple-api).  Maintaining this simple data file automatically generates [JSON](http://gsa.github.io/Very-Simple-API/objects.json), [XML](http://gsa.github.io/Very-Simple-API/objects.xml), [HTML](http://gsa.github.io/Very-Simple-API/), and [CSV](http://gsa.github.io/Very-Simple-API/objects.csv).  
 
 Steps:
 
