@@ -3,7 +3,7 @@ Simple-API
 
 This project is follows [@benbalter's work](http://github.com/benbalter/simple-api).  Maintaining this simple data file automatically generates [JSON](http://gsa.github.io/Very-Simple-API/objects.json), [XML](http://gsa.github.io/Very-Simple-API/objects.xml), [HTML](http://gsa.github.io/Very-Simple-API/), and [CSV](http://gsa.github.io/Very-Simple-API/objects.csv).  
 
-Steps:
+## Steps
 
 1) Create a new repo.  [+](https://github.com/GSA/Very-Simple-API/blob/gh-pages/extended_instructions.md#1-create-a-new-repo)   
 2) Create a new branch called gh-pages.  In the repository's settings, set gh-pages as the default branch. [+](https://github.com/GSA/Very-Simple-API/blob/gh-pages/extended_instructions.md#2-create-a-new-branch-called-gh-pages)  
