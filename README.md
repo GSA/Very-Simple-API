@@ -3,7 +3,7 @@ Simple-API
 
 This project is follows [@benbalter's work](http://github.com/benbalter/simple-api).  Maintaining this simple data file automatically generates [JSON](http://gsa.github.io/Very-Simple-API/objects.json), [XML](http://gsa.github.io/Very-Simple-API/objects.xml), [HTML](http://gsa.github.io/Very-Simple-API/), and [CSV](http://gsa.github.io/Very-Simple-API/objects.csv).  
 
-Note that there is now also a [2nd version](https://github.com/GSA/Very-Simple-API-2) based off of a CSV data file.  
+Note that there is now also a [2nd version](https://github.com/GSA/Very-Simple-API-2) based off of a CSV data file.   
 
 ## Steps
 
